@@ -22,6 +22,10 @@ function tweet() {
     window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML + " - " + author.innerHTML, "Tweet Window", "width=600, height=400");
 }
 
+function thread() {
+    window.open("https://threads.net/intent/post?text=" + quote.innerHTML + " - " + author.innerHTML, "Thread Window", "width=600, height=400");
+}
+
 
 
 getQuote(api_url);
