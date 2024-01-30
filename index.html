@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
+
+    <title>Gerador de Frases</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box">
+            <h2>Frase do dia</h2>
+            <blockquote id="quote">Carregando...</blockquote>
+            <span id="author">Carregando...</span>
+            <div>
+                <button onclick="getQuote(api_url)">Nova Frase</button>
+                <button onclick="tweet()"><img src="assets/icon/twitterx.png">Tweet</button>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
